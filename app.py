@@ -16,7 +16,9 @@ def image():
         "id": 1,
         "image": "./static/images/bg.jpg",
         "name": "through",
-        "pwd": "hirohiro0724"
+        "pwd": "hirohirofire",
+        "from": "Tochigi",
+        "University": "Saitama"
         })
 
 if __name__ == "__main__":

@@ -19,9 +19,3 @@ document.getElementById("get_image").onclick = () => {
     image.src = objRes['image'];
   })
 }
-
-document.getElementById('id').onclick = () => {
-    fetch("/",{
-        method:'POST',
-    });
-}
