@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>flask練習</title>
+  <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+  <!-- <form method="POST">
+		<input type="text" name='name' placeholder="your name" style="width:30%;height:100px;font-size:300%">
+	</form> -->
+  <h1 class="box">Hello! {{ info }}</h1>
+  <div class='box'>
+    <button type='button' class='button' id='get_image'>image取得</button>
+  </div>
+	<div id='info'></div>
+  <img id='image'>
+
+  <!-- flaskはdefaultで"static"が静的ファイル置き場。 -->
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

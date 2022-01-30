@@ -1,0 +1,19 @@
+#image{
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.button{
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.box{
+    text-align: center;
+}
+
+#info{
+    font-size: 30px;
+}
